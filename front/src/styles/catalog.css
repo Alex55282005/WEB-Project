@@ -1,0 +1,153 @@
+.main-catalog-cont{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-cont{
+    width: 25%;
+    height: 800px;
+    background-color: rgb(222, 222, 222);
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.products-cont{
+    width: 70%;
+    height: fit-content;
+    padding: 25px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    row-gap: 25px;
+}
+.prod-cont{
+    width: 90%;
+    height: fit-content;
+    padding: 10px 5px;
+    justify-self: center;
+}
+.prod-img-cont{
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prod-img-cont img{
+    width: 100%;
+}
+.prod-info-cont{
+    width: 100%;
+    height: fit-content;
+    margin-top: 15px;
+}
+.prod-brand-cont p{
+    color: #1a77d2;
+}
+.prod-name-cont p{
+    color: #292929;
+}
+.prod-pay-cont{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #292929;
+}
+.prod-buy-cont p{
+    width: 100px;
+    height: 40px;
+    background-color: #1a77d2;
+    color: #e1e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.errorProd{
+    width: 300px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+#first-p-filter{
+    margin-top: 15px;
+}
+.price-cont-filter{
+    width: 80%;
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.input-price-filter{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.check-vyrob-cont,.car-brand-cont-filter{
+    width: 80%;
+    height: 260px;
+    max-width: 250px;
+}
+.check-vyrob-hidden{
+    margin-top: 10px;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+}
+.check-vyrob-scroll{
+    margin-top: 10px;
+    width: 100%;
+    height: 210px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.check-vyrob-scroll::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+.check-vyrob-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+  border-radius: 10px;
+}
+  
+.check-vyrob-scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+.vyrob-block-filter{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.vyrob-block-filter input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.chekbtn{
+    cursor: pointer;
+}
+#btn-ok-filter{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a77d2;
+    color: #eee;
+    cursor: pointer;
+}
+.price-input{
+    width: 60%;
+    height: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    caret-color: #1a77d2;
+}

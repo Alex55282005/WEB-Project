@@ -1,0 +1,33 @@
+.main-cont{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+.link-main-cont{
+    width: 80%;
+    margin: auto;
+}
+.strong-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 900px;
+}
+.item-cont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    
+}
+.a-link-cont a{
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    height: 25px;
+    margin-top: 10px;
+}
+.a-link-cont a:hover{
+    text-decoration: underline;
+}
