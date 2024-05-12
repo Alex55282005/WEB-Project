@@ -7,11 +7,11 @@ function AboutUs() {
         <div className="container">
             <Header/>
             <div className="main-serv">
-                <h1>Про наш магазин</h1>
-                <p>Ми пропонуємо широкий асортимент та чималу кількість оригінальних автомобільних запчастин та аксесуарів до автомобілів, а також виробів, випущених провідними світовими виробниками за ліцензією.</p>
-                <p>Наші покупці за прийнятною ціною можуть замовити та отримати прямо додому (або в інше зручне для вас місце) запасну частину для свого авто.</p>
-                <p>Для оптових покупців діє дисконтна програма.</p>
-                <p>Дякуємо за відвідування нашого сайту, чекаємо на ваші листи на ел. пошту <a href="info@example.ua">info@example.ua</a> або дзвінків за телефоном <a href="380667943455">+380667943455</a>, <a href="380671390657">+380671390657</a>.</p>
+                <h1>About our store</h1>
+                <p>We offer a wide range and a large number of original car parts and accessories for cars, as well as products produced by the world's leading manufacturers under license.</p>
+                <p>Our customers can order and receive a spare part for their car directly at home (or in another convenient place for you) at an affordable price.</p>
+                <p>There is a discount program for wholesale buyers.</p>
+                <p>Thank you for visiting our site, we look forward to your emails <a href="info@example.lt">info@example.lt</a> or phone calls <a href="370687673434">+37(068)767-34-34</a>, <a href="370631490643">+37(063)149-06-43</a>.</p>
             </div>
             <Footer/>
         </div>

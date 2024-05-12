@@ -68,6 +68,7 @@
 }
 .main-nav-logo{
     width: 15%;
+    max-width: 160px;
     height: 80%;  
     display: flex;
     justify-content: center;

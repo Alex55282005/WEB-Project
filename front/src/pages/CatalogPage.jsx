@@ -38,14 +38,14 @@ const CatalogPage = () =>{
             }
         });
     }    
-    useEffect(()=>{
-        if (receivedState.id == "car") {
-            getCar();
-        }else if (receivedState.id == "detal") {
-            getDetails();
-        }
+    // useEffect(()=>{
+    //     if (receivedState.id == "car") {
+    //         getCar();
+    //     }else if (receivedState.id == "detal") {
+    //         getDetails();
+    //     }
         
-    }, [receivedState]);
+    // }, [receivedState]);
 
 
     function chek(e) {
@@ -82,10 +82,10 @@ const CatalogPage = () =>{
                 <div className="filter-cont">
                     <div className="form">
                         <div>
-                            <p id="first-p-filter">ПІДБІР ЗА ПАРАМЕТРАМИ</p>
+                            <p id="first-p-filter">SELECTION BY PARAMETERS</p>
                         </div>
                         <div className="price-cont-filter">
-                            <p>Ціна:</p>
+                            <p>Price:</p>
                             <div className="input-price-filter">
                                 <label htmlFor="priceMin">Від</label>
                                 <input name="priceMin" type="number" min="0" id="priceMin"  className="price-input"/>
@@ -97,7 +97,7 @@ const CatalogPage = () =>{
                             <button id="btn-ok-filter">OK</button>
                         </div>
                         <div className="check-vyrob-cont">
-                            <p>Виробник:</p>
+                            <p>Producer:</p>
                             <div id="check-vyrob-scroll" className="check-vyrob-hidden">
                                 <div className="vyrob-block-filter">
                                     <input type="checkbox" name="" id="" />
@@ -140,10 +140,10 @@ const CatalogPage = () =>{
                                     <label>Febi</label>
                                 </div>
                             </div>
-                            <p id="vyrob" onClick={visible} className="chekbtn">Переглянути всі</p>
+                            <p id="vyrob" onClick={visible} className="chekbtn">View all</p>
                         </div>
                         <div className="car-brand-cont-filter">
-                            <p>Бренд:</p>
+                            <p>Brand:</p>
                             <div id="check-brand-scroll" className="check-vyrob-hidden">
                                 <div className="vyrob-block-filter">
                                     <input type="checkbox" name="" id="" />
@@ -187,11 +187,11 @@ const CatalogPage = () =>{
                                 </div>
                                 
                             </div>
-                            <p id="car" onClick={visible} className="chekbtn">Переглянути всі</p>
+                            <p id="car" onClick={visible} className="chekbtn">View all</p>
                         </div>
                     </div>
                 </div>                
-                <CatalogProducts state={items}/>
+                {/* <CatalogProducts state={items}/> */}
             </div>
             <Footer/>
         </div>

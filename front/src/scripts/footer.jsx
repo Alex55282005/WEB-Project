@@ -13,7 +13,7 @@ function Footer() {
                                 <img src={phoneImg} alt="" />
                             </div>
                             <div className='left-text-cont'>
-                                <a href="">+38(066)794-34-55</a> <br /> <a href="">+38(067)139-06-57</a>
+                                <a href="">+37(068)767-34-34</a> <br /> <a href="">+37(063)149-06-43</a>
                             </div>
                         </div>
                         <div className='contact-footer-cont'>
@@ -21,7 +21,7 @@ function Footer() {
                                 <img src={mailImg} alt="" />
                             </div>
                             <div className='left-text-cont'>
-                                <p><a href="">info@example.ua</a> - тех підтримка</p>
+                                <p><a href="">info@example.lt</a> - technical support</p>
                             </div>
                         </div>
                         <div className='contact-footer-cont'>
@@ -29,32 +29,32 @@ function Footer() {
                                 <img src={locatImg} alt="" />
                             </div>
                             <div className='left-text-cont'>
-                                <p>м.Дніпро, вул. Луговська 144а <a href="">переглянути карту проїзду</a></p>
+                                <p>Vilnius, J. Jasinskio g.15 <br /><a href="">view the map</a></p>
                             </div>
                         </div>
                     </div>
                     <div className='right-side-footer'>
                         <div className='right-block'>
-                            <a href="/about-us">Про нас</a>
-                            <a href="/history">Історія</a>
-                            <a href="/help">Допомога</a>
+                            <a href="/about-us">About us</a>
+                            <a href="/history">History</a>
+                            <a href="/help">Help</a>
                         </div>
                         <div className='right-block'>
-                            <a href="/delivery">Отримання і оплата</a>
-                            <a href="/refound">Повернення та обмін</a>
-                            <a href="/zgoda">Угода користувача</a>
+                            <a href="/delivery">Receipt and payment</a>
+                            <a href="/refound">Returns and Exchanges</a>
+                            <a href="/zgoda">User agreement</a>
                         </div>
                         <div className='right-block'>
-                            <a href="distributors">Постачальникам</a>
-                            <a href="help">Клієнтська підтримка</a>
-                            <a href="/">Бренди</a>
+                            <a href="distributors">For suppliers</a>
+                            <a href="help">Customer support</a>
+                            <a href="/">Brands</a>
                         </div>  
                     </div>
                 </div>
                 <div className='bottom-footer'>
                     <div className='bottom-footer-cont'>
-                        <p>dm.ua @2023. Всі права захищині</p>
-                        <a href="/">Інтернет-магазин автозапчастин</a>
+                        <p>dm.lt @2024. All rights reserved</p>
+                        <a href="/">Online store of car details</a>
                     </div>
                 </div>
             </div>

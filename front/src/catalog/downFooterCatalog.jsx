@@ -28,9 +28,9 @@ function DownFooterCatalog() {
     }
 
     
-    useEffect(()=>{
-        getItems();
-    }, []);
+    // useEffect(()=>{
+    //     getItems();
+    // }, []);
 
     const navigate = useNavigate();
 

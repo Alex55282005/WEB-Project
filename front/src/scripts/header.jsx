@@ -17,19 +17,19 @@ function Header() {
     <div className='block'>
         <nav className='top-nav'>
             <div className='top-nav-links-cont'>
-                <a href="/about-us">Про нас</a>
-                <a href="/delivery">Отримання й оплата</a>
-                <a href="/refound">Повернення та обмін</a>
-                <a href="/distributors">Постачальникам</a>
+                <a href="/about-us">About us</a>
+                <a href="/delivery">Receipt and payment</a>
+                <a href="/refound">Returns and Exchanges</a>
+                <a href="/distributors">For suppliers</a>
             </div>
             <div className='personal-cont'>
                 <div className='profile-cont'>
                     <img src={profileImg} alt="" />
-                    <a href="">Особистий кабінет</a>
+                    <a href="/profile">Profile</a>
                 </div>
                 <div className='cart-cont'>
                     <img src={cartImg} alt="" />
-                    <p>Кошик</p>
+                    <p>Cart</p>
                 </div>
             </div>
         </nav>
@@ -42,11 +42,11 @@ function Header() {
                 </Link>
             </div>
             <div className='main-nav-contacts'>
-                <a href="">+38(066)794-34-55</a>
-                <a href="">+38(067)139-06-57</a>
+                <a href="">+37(068)767-34-34</a>
+                <a href="">+37(063)149-06-43</a>
             </div>
             <div className='nav-search-cont'>
-                <input type="search" placeholder='Яку саме запчастину шукаєте?' />
+                <input type="search" placeholder='Which detail are you looking for?' />
                 <img src={searchImg} alt="" />
             </div>
         </nav>
@@ -54,28 +54,28 @@ function Header() {
     <div className='block'>
         <div className='bottom-nav'>
             <div className="top-search-block">
-                <p id="TO">Запчастини для ТО</p>
+                <p id="TO">Details for technical service</p>
             </div>
             <div className="top-search-block">
-                <p id="GS" onClick={goTo}>Гальмівна система</p>
+                <p id="GS" onClick={goTo}>Braking system</p>
             </div>
             <div className="top-search-block">
-                <p id="DV" onClick={goTo}>Двигун і Система вихлопу</p>
+                <p id="DV" onClick={goTo}>Engine and Exhaust System</p>
             </div>
             <div className="top-search-block">
-                <p id="PDV" onClick={goTo}>Підвіска та Кермове</p>
+                <p id="PDV" onClick={goTo}>Suspension and Steering</p>
             </div>
             <div className="top-search-block">
-                <p id="KP" onClick={goTo}>Коробка передач</p>
+                <p id="KP" onClick={goTo}>Transmission</p>
             </div>
             <div className="top-search-block">
-                <p id="OH" onClick={goTo}>Охолодження та опалювання</p>
+                <p id="OH" onClick={goTo}>Cooling and heating</p>
             </div>
             <div className="top-search-block">
-                <p id="EL" onClick={goTo}>Електрика та освітлення</p>
+                <p id="EL" onClick={goTo}>Electricity and lighting</p>
             </div>
             <div className="top-search-block">
-                <p id="KZ" onClick={goTo}>Кузов і складові</p>
+                <p id="KZ" onClick={goTo}>Body and components</p>
             </div>
         </div>
     </div>

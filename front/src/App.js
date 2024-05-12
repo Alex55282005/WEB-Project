@@ -11,6 +11,7 @@ import Distributors from './services/distributors.jsx';
 import History from './services/history.jsx';
 import Help from './services/help.jsx';
 import Zgoda from './services/zgoda.jsx';
+import Profile from './profile/profile.jsx';
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
         <Route path='help' element={<Help />}>
         </Route>
         <Route path='zgoda' element={<Zgoda />}>
+        </Route>
+        <Route path='profile' element={<Profile />}>
         </Route>
       </Routes>
     </BrowserRouter>

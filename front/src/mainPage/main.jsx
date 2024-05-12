@@ -40,13 +40,13 @@ function MainScreen() {
                 </div>
                 <div className='main-block'>
                     <div>
-                        <h2 className='main-h2'>Ми продаємо запчастини на такі автомобілі:</h2>
+                        <h2 className='main-h2'>We sell details for the following cars:</h2>
                     </div>
-                    <ModelsMain/>
+                    {/* <ModelsMain/> */}
                 </div>
                 <div className='main-block'>
                     <div>
-                        <h2 className='main-h2'>Наші переваги</h2>
+                        <h2 className='main-h2'>Our advantages</h2>
                     </div>
                     <div className='adv-block-cont'>
                         <div className="advantage-block">
@@ -54,7 +54,7 @@ function MainScreen() {
                                 <img src={DeliverImg} alt="" />
                             </div>
                             <div className='adv-text-cont'>
-                                <p>Зручна доставка до будь-якої точки країни без передоплати</p>
+                                <p>Convenient delivery to any part of the country without prepayment</p>
                             </div>
                         </div>
                         <div className="advantage-block">
@@ -62,7 +62,7 @@ function MainScreen() {
                                 <img src={SecureImg} alt="" />
                             </div>
                             <div className='adv-text-cont'>
-                                <p>Гарантія повернення/обміну при неправильному підборі</p>
+                                <p>Return/exchange guarantee in case of incorrect selection</p>
                             </div>
                         </div>
                         <div className="advantage-block">
@@ -70,7 +70,7 @@ function MainScreen() {
                                 <img src={GearImg} alt="" />
                             </div>
                             <div className='adv-text-cont'>
-                                <p>Величезний асортимент: понад 500 тис. запчастин та автотоварів</p>
+                                <p>Huge assortment: more than 500,000 details and auto goods</p>
                             </div>
                         </div>
                         <div className="advantage-block">
@@ -78,7 +78,7 @@ function MainScreen() {
                                 <img src={CallImg} alt="" />
                             </div>
                             <div className='adv-text-cont'>
-                                <p>Відповідь на дзвінки: Пн-Сб з 9:00 до 19:00</p>
+                                <p>Answering calls: Mon-Sat from 9:00 a.m. to 7:00 p.m</p>
                             </div>
                         </div>
                     </div>

@@ -26,12 +26,21 @@
     width: 400px;
     margin: auto;
     margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .form-block{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
+}
+.form-block:nth-child(1){
+    width: 48%;
+}
+.form-block:nth-child(2){
+    width: 48%;
 }
 .form-block label{
     font-size: 18px;
