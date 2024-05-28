@@ -12,10 +12,6 @@ import CallImg from "../resources/logos/mainIcons/call.png";
 
 function MainScreen() {
 
-    // axios.get('http://localhost:80/users', {params} ).then((res)=>{
-    //     console.log(res.data);
-    // });
-
     // axios.post('http://localhost:80/postUser', {
     //     password: 'myPasWord',
     //     name: 'John', 
@@ -42,7 +38,7 @@ function MainScreen() {
                     <div>
                         <h2 className='main-h2'>We sell details for the following cars:</h2>
                     </div>
-                    {/* <ModelsMain/> */}
+                    <ModelsMain/>
                 </div>
                 <div className='main-block'>
                     <div>
