@@ -31,7 +31,6 @@ function Help() {
         }
         sendData();
         console.log(arr);
-        // window.location.reload(true);
     }
     
     
@@ -42,29 +41,29 @@ function Help() {
             <div className="main-serv">
                 <form>
                     <div className="form-block">
-                        <label>Ім'я</label>
+                        <label>Name</label>
                         <input name="name" type="text" id="name" required/>
                     </div>
                     <div className="form-block">
-                        <label>Прізвище</label>
+                        <label>Surname</label>
                         <input name="surname" type="text" id="surname" required/>
                     </div>
                     <div className="form-block">
-                        <label>Номер телефону</label>
+                        <label>Phone number</label>
                         <input type="number" name="phone" id="phone" required/>
                     </div>
                     <div className="form-block">
-                        <label>Електронна пошта</label>
+                        <label>Email</label>
                         <input name="email" type="email" id="email" required/>
                     </div>
                     <div className="form-block">
-                        <label>Опишіть свою проблему</label>
+                        <label>Describe your problem</label>
                         <textarea name="discr" id="discription" cols="30" rows="10" required></textarea>
                     </div>
                     <div className="submit-cont">
-                        <input type="reset" value="Очистити форму"/>
+                        <input type="reset" value="Clear the form"/>
                         <div id="submit" onClick={send}>
-                            Відправити
+                            Send
                         </div>
                     </div>
                 </form>

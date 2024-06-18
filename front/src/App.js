@@ -11,6 +11,8 @@ import Distributors from './services/distributors.jsx';
 import History from './services/history.jsx';
 import Help from './services/help.jsx';
 import Zgoda from './services/zgoda.jsx';
+import ProfileIndex from './profile/indexProfile.jsx';
+import Cart from './cart/Cart.jsx';
 
 function App() {
   return (
@@ -37,6 +39,10 @@ function App() {
         <Route path='help' element={<Help />}>
         </Route>
         <Route path='zgoda' element={<Zgoda />}>
+        </Route>
+        <Route path='profile' element={<ProfileIndex />}>
+        </Route>
+        <Route path='cart' element={<Cart />}>
         </Route>
       </Routes>
     </BrowserRouter>

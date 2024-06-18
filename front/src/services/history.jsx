@@ -7,9 +7,9 @@ function History() {
         <div className="container">
             <Header/>
             <div className="main-serv">
-                <h1>Історія</h1>
-                <p>Компанія «Майтер деталей» розпочала своє існування у 2006 році в Дніпропетровську. Основним напрямком нашої діяльності є продаж автомобільних запасних частин в Інтернеті.</p>
-                <p>Ми згуртована команда професіоналів, тому, зупинивши на нас свій вибір, ви отримаєте якісний і доступний сервіс і обов'язково зверніться до нас ще.</p>
+                <h1>History</h1>
+                <p>The company "Maiter details" began its existence in 2006 in Vilnius. The main direction of our activity is the sale of car spare parts on the Internet.</p>
+                <p>We are a close-knit team of professionals, therefore, choosing us, you will receive high-quality and affordable service and be sure to contact us again.</p>
             </div>
             <Footer/>
         </div>

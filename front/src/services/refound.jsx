@@ -6,9 +6,9 @@ function Refound() {
         <div className="container">
             <Header/>
             <div className="main-serv">
-                <h1>Повернення товару</h1>
-                <p>Повернення товару можливо реалізувати тільки за заводскій несправності продукту.</p>
-                <p>Якщо деталь була пошкодженна вже після покупки - тоді деталь поверненню або обміну не підлягає.</p>
+                <h1>Product return</h1>
+                <p>It is possible to return the product only in case of a factory defect of the product.</p>
+                <p>If the item was damaged already after purchase, then the item cannot be returned or exchanged.</p>
             </div>
             <Footer/>
         </div>

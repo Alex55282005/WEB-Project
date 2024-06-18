@@ -7,9 +7,9 @@ function Distributors() {
         <div className="container">
             <Header/>
             <div className="main-serv">
-                <h1>Постачальникам</h1>
-                <p>Свої пропозиції щодо постачання автозапчастин, аксесуарів та ін. ви можете надіслати на електронну пошту <a href="info@example.ua">info@example.ua</a>.</p>
-                <p>Ми обов'язково розглянемо всі пропозиції та зв'яжемося з вами.</p>
+                <h1>For suppliers</h1>
+                <p>Your proposals for the supply of auto parts, accessories, etc. you can send to email <a href="info@example.ua">info@example.lt</a>.</p>
+                <p>We will certainly consider all offers and contact you.</p>
             </div>
             <Footer/>
         </div>

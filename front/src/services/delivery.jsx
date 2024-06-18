@@ -7,11 +7,11 @@ function Delivery() {
         <div className="container">
             <Header/>
             <div className="main-serv">
-                <h1>Доставка</h1>
-                <p>Доставка або отримання може бути трьома способами</p>
+                <h1>Delivery</h1>
+                <p>Delivery or collection can be done in two ways</p>
                 <ol>
-                    <li>Самовивозом у нас з офісу по адресу - вул. Вулиця , м. Дніпро.</li>
-                    <li>Доставкою Нової пошти (сплата за доставку проводиться отримувачем за тарифами перевезника).</li>
+                    <li>Pickup from our office to the address - Vilnius, J. Jasinskio g.15.</li>
+                    <li>By Lithuanian Post delivery (payment for delivery is made by the recipient at the carrier's rates).</li>
                 </ol>
             </div>
             <Footer/>
