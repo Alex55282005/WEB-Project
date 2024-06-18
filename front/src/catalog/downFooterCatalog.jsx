@@ -6,39 +6,24 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../scripts/header";
 import Footer from "../scripts/footer";
+import SubCat from "./SubCat"
 
 function DownFooterCatalog() {
     
     const location = useLocation();
     const receivedState = location.state;
-
     const [items, setItems] = useState([]);      
 
+
     const getItems = async () => {
-        let {data} = await  axios.get(API_URL+ "categories/");
+        let {data} = await  axios.get(`https://127.0.0.1:9999/api/Category/section/${receivedState.id}`);
         setItems(data)
-        data.map(item=>{
-            if (item.catalogId == receivedState) {
-                console.log(item);
-                return setItems(...items, item);
-            }else{
-                return null;
-            }
-        });
     }
 
     
-    // useEffect(()=>{
-    //     getItems();
-    // }, []);
-
-    const navigate = useNavigate();
-
-    const goTo = (e) =>{
-        let idName = e.target.innerHTML;
-        console.log(idName);
-        navigate ("/catalog", {state: {id:"detal", name:idName}});
-    }
+    useEffect(()=>{
+        getItems();
+    }, [receivedState]);
 
     return(
         <div className="container">
@@ -47,29 +32,19 @@ function DownFooterCatalog() {
                 
                 <div className="link-main-cont">
                     <div className="title-cont">
-                        {/* <h1>{title}</h1> */}
                     </div>
                     <div className="strong-cont">
                     {items.map((item)=>{
-                        if (item.catalogId == receivedState.id) {
                             return(
                                 <div className="item-cont">
                                     <div className="item-link-cont">
                                         <div className="h3-cont">
-                                            <h3>{item.category_name}</h3>
+                                            <h3>{item.name}</h3>
                                         </div>
-                                        {
-                                         item.pod_categories.map((item1)=>(
-                                            <div className="a-link-cont">
-                                                <a href="" onClick={goTo}>{item1.pod_name}</a>
-                                            </div>
-                                         ))
-                                        }
+                                        <SubCat receivedState={item}/>
                                     </div>
                                 </div>
-                            );
-                        }
-                        
+                            );                        
                         })
                     }
                    </div>

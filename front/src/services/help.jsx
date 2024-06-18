@@ -31,7 +31,6 @@ function Help() {
         }
         sendData();
         console.log(arr);
-        // window.location.reload(true);
     }
     
     

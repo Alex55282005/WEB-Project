@@ -84,7 +84,7 @@ function ModelsMain() {
 
     const goTo = (e) =>{
         let idName = e.target.id;
-        navigate ("/catalog", {state: {id:"car", name:idName}});
+        navigate ("/catalog");
     }
 
     return(
